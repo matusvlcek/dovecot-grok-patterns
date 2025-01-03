@@ -1,0 +1,9 @@
+pattern: ^%{DOVECOT}$
+data: "managesieve(user@domain.tld)<28222><BwGQOaas5Hqx/AAA+>: Connection closed bytes=13/68"
+results:
+    "[dovecot][protocol]": "managesieve"
+    "[dovecot][user]": "user@domain.tld"
+    "[dovecot][mpid]": "28222"
+    "[dovecot][session]": "BwGQOaas5Hqx/AAA+"
+    "[dovecot][disconnect_reason]": "Connection closed"
+    "[dovecot][keyvalue_data]": "bytes=49/6786"
